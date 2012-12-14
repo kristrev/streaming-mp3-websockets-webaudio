@@ -27,7 +27,7 @@ How to install and run
 
 1. Compile server and client using coffeescript. For example, 
     
-`coffee -c mp3_reader.coffee && coffee -c mp3_client.coffee`
+   `coffee -c mp3_reader.coffee && coffee -c mp3_client.coffee`
 
 2. Start the server, provide an mp3 file as the first command line argument. For
    example,
