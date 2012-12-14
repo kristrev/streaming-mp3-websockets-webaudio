@@ -26,10 +26,12 @@ How to install and run
 ----------------------
 
 1. Compile server and client using coffeescript. For example, 
+    
 `coffee -c mp3_reader.coffee && coffee -c mp3_client.coffee`
 
 2. Start the server, provide an mp3 file as the first command line argument. For
    example,
+   
    `nodejs mp3_reader.js test.mp3`
 
 3. Open webaudio-test.html. Make sure that mp3\_client.js is in the same folder.
